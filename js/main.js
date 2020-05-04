@@ -12,7 +12,7 @@
 
         spritely: {
             init: function () {
-                // spritely methods...               
+            
                 $('#flubber')
                     .sprite({ fps: 10, no_of_frames: 2 })
                     .isDraggable({
@@ -30,7 +30,7 @@
                     .activeOnClick();
                     $('#flubber').spRelSpeed(8);
 
-                // $('html').flyToTap();
+
                 if (!window.app.is_ipad && document.location.hash.indexOf('iphone') > -1) {
                     // iPhone/iPad
                     $('body').addClass('platform-iphone');
